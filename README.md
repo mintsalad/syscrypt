@@ -54,8 +54,10 @@ Running ./make.sh will also download the default Keys. Those need to be in place
 The SUID bit is required for <code>syscrypt</code> to manage lockout state files in protected directories.
 Ensure <code>/root/.syscrypt</code> is only writable by <code>root</code>.
 
-Because of the inbuilt <code>bruteforce</code> protection, you should limit your queries to a minimum of 5 per second.
+Because of the inbuilt <code>bruteforce</code> protection, you should limit your queries to a minimum of <code>5</code> per second.
 Adding <code>sleep 3</code> between queries will help slow things down a little and prevent hitting the <code>rate limit exceeded</code> warning.
+
+You can set your security hard limits in the <code>make.sh</code> file in the root of this project.
 
 ## Functionality
 
