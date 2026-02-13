@@ -1,6 +1,9 @@
 ** THIS PROJECT IS PUBLIC BUT NOT LIVE ** DO NOT DOWNLOAD ** ITS NOT READY **
-** ITS CURRENTLY PUBLIC BECAUSE WE HAVE TO TEST DOWNLOAD FUNCTIONALITY IN make.sh **
-** WE'll be actually ready for launch on 20.02/2026 once significant testing is complete **
+
+ITS CURRENTLY PUBLIC BECAUSE WE HAVE TO TEST DOWNLOAD FUNCTIONALITY IN make.sh
+WE'll be actually ready for launch on <code>20.02/2026</code> once significant testing is complete
+
+---
 
 # syscrypt (version 1.2.1)
 Hardened age wrapper for high-stakes security. Features identity-based auth, brute-force rate limiting, and a 15-minute "Nuclear Lockout." Built-in Pushover alerts for failed attempts. Hardened via garble obfuscation, string literal encryption, and SUID protection. A self-bootstrapping suite designed for anti-reverse engineering.
